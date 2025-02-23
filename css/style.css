@@ -57,6 +57,12 @@ body {
 
 /* Header */
 
+.header {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-position: center top -45px; /* Поднимаем фон на 50px */
+  min-width: 100vh;
+}
 .header__top {
   padding: 50px 0 90px;
   display: flex;
@@ -91,6 +97,8 @@ body {
 .title-img {
   width: 100%;
   margin-bottom: 12px;
+  position: relative;
+  z-index: -1;
 }
 
 .title-text {
@@ -148,7 +156,7 @@ body {
   border-radius: 10px;
 
   backdrop-filter: blur(4px);
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .header__news-title,
@@ -160,6 +168,18 @@ body {
 
 .header__news-time {
   margin-bottom: 10px;
+}
+
+.header__info {
+  display: flex;
+  flex-direction: column;
+  gap: 118px;
+  margin-top: auto;
+}
+
+.header__social {
+  margin-top: auto;
+
 }
 
 .header__news-link {
