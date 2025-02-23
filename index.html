@@ -6,6 +6,15 @@
     <title>Surf School</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -37,13 +46,16 @@
             </ul>
           </nav>
 
-          <a class="header__phone" href="tel:+351912568342"
-            ><img src="/images/icon/phone-img-ico.svg" alt="" />+351912568342</a
+          <button
+            class="header__phone"
+            onclick="window.location.href='tel:+351912568342'"
           >
+            <img src="/images/icon/phone-img-ico.svg" alt="" />+351912568342
+          </button>
         </div>
 
         <img src="/images/title.png" alt="" class="title-img" />
-        <h1 class="title">Surfing school</h1>
+        <h1 class="title visually-hidden">Surfing school</h1>
         <p class="title-text">Vilamoura. Portugal</p>
 
         <div class="header__content">
