@@ -44,6 +44,8 @@ body {
 
   font-family: "Rethink Sans", serif;
   font-style: normal;
+
+  color: #2b2a29;
 }
 
 .container {
@@ -86,6 +88,11 @@ body {
   height: 46px;
 }
 
+.title-img {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
 .title-text {
   display: flex;
   align-items: center;
@@ -104,4 +111,55 @@ body {
 }
 
 .header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__info-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 487px;
+  gap: 18px 10px;
+}
+
+.header__info-item {
+  padding: 10px 20px;
+  color: #0a507a;
+  border-radius: 30px;
+  border: 1px solid #0a507a;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.header__social-list {
+  display: flex;
+  gap: 20px;
+
+  width: 62px;
+  height: 62px;
+}
+
+.header__news-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 50px 20px;
+  width: 392px;
+  height: 485px;
+
+  backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.header__news-title {
+}
+
+.header__news-time {
+}
+
+.header__news-link {
 }
