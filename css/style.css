@@ -143,23 +143,29 @@ body {
 .header__news-box {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-
-  border: 1px solid #fff;
+  /* gap: 30px; */
   border-radius: 10px;
-  padding: 50px 20px;
-  width: 392px;
-  height: 485px;
 
   backdrop-filter: blur(4px);
   background: rgba(255, 255, 255, 0.8);
 }
 
-.header__news-title {
+.header__news-title,
+.header__news-time {
+  font-weight: 800;
+  font-size: 32px;
+  text-transform: uppercase;
 }
 
 .header__news-time {
+  margin-bottom: 10px;
 }
 
 .header__news-link {
+  font-weight: 800;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: underline;
+
+  margin-bottom: 30px;
 }
