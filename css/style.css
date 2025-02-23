@@ -60,7 +60,7 @@ body {
 .header {
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
-  background-position: center top -45px; /* Поднимаем фон на 50px */
+  background-position: left 1px top -50px;
   min-width: 100vh;
 }
 .header__top {
