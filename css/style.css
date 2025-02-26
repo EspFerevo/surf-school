@@ -60,6 +60,7 @@ body {
 .header {
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
+  background-size: cover;
   min-width: 100vh;
 
   padding-bottom: 80px;
@@ -233,3 +234,16 @@ body {
   backdrop-filter: blur(4px);
   background: rgba(255, 255, 255, 0.3);
 }
+
+/* @media (max-width: 1920px) { 
+  .header { 
+    padding-bottom: 50px;
+  }
+  .header__top { 
+    padding: 30px;
+  }
+  
+  .header__news-box { 
+    margin-bottom: 20px;
+  }
+} */
