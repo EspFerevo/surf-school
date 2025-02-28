@@ -247,3 +247,11 @@ body {
     margin-bottom: 20px;
   }
 } */
+
+.text { 
+font-weight: 800;
+font-size: 64px;
+text-transform: uppercase;
+color: #2b2a29;
+
+}
