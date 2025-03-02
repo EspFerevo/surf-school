@@ -254,13 +254,14 @@ body {
   padding: 150px 0;
   color: #2b2a29;
 }
+
 .about {
   margin-bottom: 150px;
 }
 .about__inner {
   display: flex;
-  justify-content: space-between;
 }
+
 .about__content {
 }
 
