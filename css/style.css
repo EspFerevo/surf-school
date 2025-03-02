@@ -55,6 +55,8 @@ body {
   margin: 0 auto;
 }
 
+
+
 /* Header */
 
 .header {
@@ -331,13 +333,16 @@ body {
   justify-content: space-between;
   flex-basis: 50%;
 }
+
 .activities__text .buttons-book {
   align-self: start;
 }
+
 .activities__list {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
+
 .activities__item {
   border: 1px solid #2b2a29;
   border-radius: 50%;
@@ -354,11 +359,14 @@ body {
   text-align: center;
 }
 
+/* IMG */
 .site-images {
   width: 100%;
   margin-bottom: 150px;
 }
+/* IMG */
 
+/* Reviews */
 .reviews {
   margin-bottom: 150px;
 }
@@ -418,6 +426,7 @@ body {
 }
 
 /* Footer */
+
 .footer {
   padding: 100px 0;
   background-color: #2b2a29;
