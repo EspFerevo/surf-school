@@ -150,10 +150,6 @@ body {
   height: 62px;
 }
 
-.header__content-news { 
-    
-}
-
 .header__news-box {
   display: flex;
   flex-direction: column;
@@ -248,10 +244,9 @@ body {
   }
 } */
 
-.text { 
-font-weight: 800;
-font-size: 64px;
-text-transform: uppercase;
-color: #2b2a29;
-
+.text {
+  font-weight: 800;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #2b2a29;
 }
