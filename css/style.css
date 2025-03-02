@@ -50,7 +50,7 @@ body {
 
 .container {
   max-width: 1740px;
-  
+  width: calc(100% - 160px);
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -495,6 +495,9 @@ body {
 .menu.menu--open .menu__btn span {
   background-color: #fff;
 }
+
+
+/* Adaptive */
 
 @media (max-width: 1500px) {
   .about_img {
