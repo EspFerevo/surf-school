@@ -61,7 +61,7 @@ body {
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 100vh;
+  min-width: 100vw;
 
   padding-bottom: 80px;
 }
@@ -74,7 +74,7 @@ body {
   font-size: 20px;
 }
 
-.menu__lits {
+.menu__list {
   display: flex;
   gap: 40px;
   color: #0a507a;
@@ -260,7 +260,6 @@ body {
 .about__inner {
   display: flex;
   justify-content: space-between;
-  gap: 310px;
 }
 .about__content {
 }
@@ -281,10 +280,9 @@ body {
 .about__list {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   gap: 10px;
-  max-width: 431px;
 }
+
 .about__item {
   font-weight: 700;
   font-size: 26px;
