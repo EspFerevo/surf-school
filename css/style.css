@@ -244,9 +244,33 @@ body {
   }
 } */
 
-.text {
+/* About section */
+
+.text__about {
+  max-width: 1075px;
   font-weight: 800;
   font-size: 64px;
   text-transform: uppercase;
+  padding: 150px 0;
   color: #2b2a29;
+}
+.about {
+}
+.about__inner {
+}
+.about__content {
+}
+.about__subtitle {
+}
+.about__title {
+}
+.about__list {
+}
+.about__item {
+}
+.about__text {
+}
+.about__img {
+}
+.about__link {
 }
