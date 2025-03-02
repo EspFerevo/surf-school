@@ -50,7 +50,7 @@ body {
 
 .container {
   max-width: 1740px;
-  width: calc(100% - 160px);
+  width: calc(100% - 70px);
   padding: 0 10px;
   margin: 0 auto;
 }
